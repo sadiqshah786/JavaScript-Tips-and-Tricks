@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #3498db;
+}
+.drag-wrapper{
+    border: 2px dashed #fff;
+    height: 500px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    border-radius: 5px;
+    color: #fff;
+}
+.drag-wrapper.active{
+    border: 2px solid #fff;
+}
+.drag-wrapper i{
+    font-size: 52px;
+}
+.drag-wrapper p,span{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.drag-wrapper button{
+    font-size: 16px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    outline: none;
+    background-color: #fff;
+
+}
+.error{
+    color: red !important;
+    font-size: 14px;
+}
+.file-upload{
+    font-size: 14px;
+    color: #fff;
+}
